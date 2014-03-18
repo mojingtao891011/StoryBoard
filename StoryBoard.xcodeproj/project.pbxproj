@@ -21,6 +21,10 @@
 		FB6FAD3F18D7DF3200167B13 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB6FAD2118D7DF3200167B13 /* UIKit.framework */; };
 		FB6FAD4718D7DF3200167B13 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FB6FAD4518D7DF3200167B13 /* InfoPlist.strings */; };
 		FB6FAD4918D7DF3200167B13 /* StoryBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6FAD4818D7DF3200167B13 /* StoryBoardTests.m */; };
+		FB6FAD5418D7E9D700167B13 /* AppDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6FAD5318D7E9D700167B13 /* AppDetails.m */; };
+		FB6FAD5718D7EB5200167B13 /* AppDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6FAD5618D7EB5200167B13 /* AppDetailsViewController.m */; };
+		FB6FAD5A18D7F09700167B13 /* AppTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6FAD5918D7F09700167B13 /* AppTableViewCell.m */; };
+		FB6FAD5D18D7F27500167B13 /* OurAppTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6FAD5C18D7F27500167B13 /* OurAppTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,14 @@
 		FB6FAD4418D7DF3200167B13 /* StoryBoardTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StoryBoardTests-Info.plist"; sourceTree = "<group>"; };
 		FB6FAD4618D7DF3200167B13 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FB6FAD4818D7DF3200167B13 /* StoryBoardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoryBoardTests.m; sourceTree = "<group>"; };
+		FB6FAD5218D7E9D700167B13 /* AppDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDetails.h; sourceTree = "<group>"; };
+		FB6FAD5318D7E9D700167B13 /* AppDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDetails.m; sourceTree = "<group>"; };
+		FB6FAD5518D7EB5200167B13 /* AppDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDetailsViewController.h; sourceTree = "<group>"; };
+		FB6FAD5618D7EB5200167B13 /* AppDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDetailsViewController.m; sourceTree = "<group>"; };
+		FB6FAD5818D7F09700167B13 /* AppTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppTableViewCell.h; sourceTree = "<group>"; };
+		FB6FAD5918D7F09700167B13 /* AppTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppTableViewCell.m; sourceTree = "<group>"; };
+		FB6FAD5B18D7F27500167B13 /* OurAppTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OurAppTableViewController.h; sourceTree = "<group>"; };
+		FB6FAD5C18D7F27500167B13 /* OurAppTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OurAppTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +127,14 @@
 				FB6FAD2C18D7DF3200167B13 /* AppDelegate.h */,
 				FB6FAD2D18D7DF3200167B13 /* AppDelegate.m */,
 				FB6FAD2F18D7DF3200167B13 /* Main.storyboard */,
+				FB6FAD5818D7F09700167B13 /* AppTableViewCell.h */,
+				FB6FAD5918D7F09700167B13 /* AppTableViewCell.m */,
+				FB6FAD5218D7E9D700167B13 /* AppDetails.h */,
+				FB6FAD5318D7E9D700167B13 /* AppDetails.m */,
+				FB6FAD5518D7EB5200167B13 /* AppDetailsViewController.h */,
+				FB6FAD5618D7EB5200167B13 /* AppDetailsViewController.m */,
+				FB6FAD5B18D7F27500167B13 /* OurAppTableViewController.h */,
+				FB6FAD5C18D7F27500167B13 /* OurAppTableViewController.m */,
 				FB6FAD3218D7DF3200167B13 /* ViewController.h */,
 				FB6FAD3318D7DF3200167B13 /* ViewController.m */,
 				FB6FAD3518D7DF3200167B13 /* Images.xcassets */,
@@ -249,8 +269,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB6FAD5D18D7F27500167B13 /* OurAppTableViewController.m in Sources */,
 				FB6FAD3418D7DF3200167B13 /* ViewController.m in Sources */,
 				FB6FAD2E18D7DF3200167B13 /* AppDelegate.m in Sources */,
+				FB6FAD5718D7EB5200167B13 /* AppDetailsViewController.m in Sources */,
+				FB6FAD5A18D7F09700167B13 /* AppTableViewCell.m in Sources */,
+				FB6FAD5418D7E9D700167B13 /* AppDetails.m in Sources */,
 				FB6FAD2A18D7DF3200167B13 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
